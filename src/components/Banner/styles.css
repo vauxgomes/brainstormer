@@ -1,0 +1,60 @@
+.banner {
+  padding: 3rem !important;
+
+  position: relative;
+  height: 100vh;
+
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.banner .title {
+  font-size: 80px;
+  font-weight: 600;
+  line-height: 70px;
+}
+
+.banner footer {
+  position: absolute;
+  bottom: 50px;
+}
+
+.banner ul {
+  padding: 0;
+  margin-bottom: 1rem;
+  list-style: none;
+}
+
+.banner ul li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  font-weight: 500;
+
+  line-height: 40px;
+}
+
+@media screen and (max-width: 968px) {
+  .banner {
+    font-size: 13px;
+  }
+
+  .banner .title {
+    font-size: 55px;
+    line-height: 45px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .banner {
+    padding: 2.5rem !important;
+    height: initial;
+    background: rgba(28, 37, 64, 0.95);
+    color: white;
+  }
+
+  .banner footer {
+    position: static;
+  }
+}

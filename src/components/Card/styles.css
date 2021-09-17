@@ -22,3 +22,13 @@
 .idea-card p {
   color: #585858;
 }
+
+.idea-card .status {
+  opacity: 0.7;
+  font-size: small;
+  
+
+  display: flex;
+  align-items: center;
+  gap: 0.125rem;
+}

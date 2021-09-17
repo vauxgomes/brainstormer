@@ -1,8 +1,5 @@
-@import url(./vendor/css/bootstrap.css);
-
-:root {
-  --app-primary: #6666ff;
-}
+@import url('./vendor/css/bootstrap.css');
+@import url('./config.css');
 
 ::selection {
   color: white;
@@ -37,45 +34,16 @@ a:hover {
   color: #6666ff;
 }
 
+.icon-sm {
+  font-size: 18px;
+}
+
 .icon-lg {
   font-size: 28px;
 }
 
-.banner {
-  padding: 3rem !important;
-
-  position: relative;
-  height: 100vh;
-
-  font-size: 18px;
-  font-weight: 500;
-}
-
-.banner .title {
-  font-size: 80px;
-  font-weight: 600;
-  line-height: 70px;
-}
-
-.banner footer {
-  position: absolute;
-  bottom: 50px;
-}
-
-.banner ul {
-  padding: 0;
-  margin-bottom: 1rem;
-  list-style: none;
-}
-
-.banner ul li {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-
-  font-weight: 500;
-
-  line-height: 40px;
+.badge-primary {
+  background: #6666ff !important;
 }
 
 .btn-primary,
@@ -122,16 +90,7 @@ a:hover {
   gap: 1rem;
 }
 
-@media screen and (max-width: 900px) {
-  .banner {
-    font-size: 13px;
-  }
-
-  .banner .title {
-    font-size: 55px;
-    line-height: 45px;
-  }
-
+@media screen and (max-width: 968px) {
   .cards {
     grid-template-columns: 1fr;
   }
@@ -142,17 +101,6 @@ a:hover {
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr;
-  }
-
-  .banner {
-    padding: 2.5rem !important;
-    height: initial;
-    background: rgba(28, 37, 64, 0.95);
-    color: white;
-  }
-
-  .banner footer {
-    position: static;
   }
 
   .ideias {

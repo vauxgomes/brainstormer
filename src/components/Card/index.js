@@ -11,8 +11,15 @@ export default function Card({ idea }) {
 
       <p>{idea.description}</p>
 
-      <div>
-        <button className="btn btn-sm float-end btn-primary">Ler mais</button>
+      <div className="d-flex justify-content-between align-items-center">
+        <div className="status">
+          <span className="icon-sm material-icons">visibility</span>
+          <span>1k</span>
+
+          <span className="icon-sm material-icons">favorite</span>
+          <span>1k</span>
+        </div>
+        <button className="btn btn-sm btn-primary">Ler mais</button>
       </div>
     </div>
   )
