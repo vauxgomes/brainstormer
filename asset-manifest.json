@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/brainstormer/static/css/main.7b3eb683.chunk.css",
-    "main.js": "/brainstormer/static/js/main.e6d8da79.chunk.js",
-    "main.js.map": "/brainstormer/static/js/main.e6d8da79.chunk.js.map",
+    "main.css": "/brainstormer/static/css/main.db528d71.chunk.css",
+    "main.js": "/brainstormer/static/js/main.7f096b08.chunk.js",
+    "main.js.map": "/brainstormer/static/js/main.7f096b08.chunk.js.map",
     "runtime-main.js": "/brainstormer/static/js/runtime-main.8bad2154.js",
     "runtime-main.js.map": "/brainstormer/static/js/runtime-main.8bad2154.js.map",
-    "static/js/2.80fa58b4.chunk.js": "/brainstormer/static/js/2.80fa58b4.chunk.js",
-    "static/js/2.80fa58b4.chunk.js.map": "/brainstormer/static/js/2.80fa58b4.chunk.js.map",
+    "static/js/2.bf08abcb.chunk.js": "/brainstormer/static/js/2.bf08abcb.chunk.js",
+    "static/js/2.bf08abcb.chunk.js.map": "/brainstormer/static/js/2.bf08abcb.chunk.js.map",
     "index.html": "/brainstormer/index.html",
-    "static/css/main.7b3eb683.chunk.css.map": "/brainstormer/static/css/main.7b3eb683.chunk.css.map",
-    "static/js/2.80fa58b4.chunk.js.LICENSE.txt": "/brainstormer/static/js/2.80fa58b4.chunk.js.LICENSE.txt"
+    "static/css/main.db528d71.chunk.css.map": "/brainstormer/static/css/main.db528d71.chunk.css.map",
+    "static/js/2.bf08abcb.chunk.js.LICENSE.txt": "/brainstormer/static/js/2.bf08abcb.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.8bad2154.js",
-    "static/js/2.80fa58b4.chunk.js",
-    "static/css/main.7b3eb683.chunk.css",
-    "static/js/main.e6d8da79.chunk.js"
+    "static/js/2.bf08abcb.chunk.js",
+    "static/css/main.db528d71.chunk.css",
+    "static/js/main.7f096b08.chunk.js"
   ]
 }
