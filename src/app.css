@@ -42,16 +42,28 @@ a:hover {
   font-size: 28px;
 }
 
-.badge-primary {
+.bg-app-primary {
   background: #6666ff !important;
 }
 
-.btn-primary,
-.btn-primary:focus,
-.btn-primary:hover {
+.bg-app-info {
+  background: #09b3af !important;
+}
+
+.btn-app-primary,
+.btn-app-primary:focus,
+.btn-app-primary:hover {
   border: none;
   color: white !important;
   background: #6666ff !important;
+}
+
+.btn-app-secondary,
+.btn-app-secondary:focus,
+.btn-app-secondary:hover {
+  border: none;
+  color: white !important;
+  background: rgba(13, 12, 34) !important;
 }
 
 .ideias {
@@ -88,6 +100,17 @@ a:hover {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
+  align-items: flex-start;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
 }
 
 @media screen and (max-width: 968px) {

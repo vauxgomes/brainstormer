@@ -19,7 +19,8 @@ export default function Card({ idea }) {
           <span className="icon-sm material-icons">favorite</span>
           <span>1k</span>
         </div>
-        <button className="btn btn-sm btn-primary">Ler mais</button>
+        
+        <button className="btn btn-sm btn-app-primary">Ler mais</button>
       </div>
     </div>
   )

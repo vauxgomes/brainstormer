@@ -1,4 +1,6 @@
 import React from 'react'
+import { BrowserRouter as Router } from 'react-router-dom'
+
 import Card from './components/Card'
 import IdeaForm from './components/IdeaForm'
 
@@ -9,40 +11,42 @@ function App() {
   const ideas = [
     {
       id: 1,
-      title: 'App brainstorm',
+      title: 'Brainstormer',
       description:
-        'Desenvolver app em React capaz de armazenar e compatirlhar lista de ideias à comunidade de interesse'
+        'Desenvolver app em React capaz de armazenar e compartilhar listas de ideias à comunidade de interesse'
     }
   ]
 
   return (
-    <div className="app">
-      {/* BANNER */}
-      <Banner />
+    <Router>
+      <div className="app">
+        {/* BANNER */}
+        <Banner />
 
-      {/* MAIN */}
-      <div>
-        <main className="ideias">
-          <div className="search-bar">
-            <span className="icon-lg material-icons text-muted">search</span>
-            <input
-              id="search"
-              type="text"
-              placeholder="Procure por uma idéia"
-            />
-          </div>
+        {/* MAIN */}
+        <div>
+          <main className="ideias">
+            <div className="search-bar">
+              <span className="icon-lg material-icons text-muted">search</span>
+              <input
+                id="search"
+                type="text"
+                placeholder="Procure por uma idéia"
+              />
+            </div>
 
-          <IdeaForm />
+            <IdeaForm />
 
-          <h6 className="fw-light">Mais Recentes...</h6>
-          <div className="cards">
-            {ideas.map((idea, key) => (
-              <Card idea={idea} key={key} />
-            ))}
-          </div>
-        </main>
+            <h6 className="fw-light">Mais avaliados...</h6>
+            <div className="cards">
+              {ideas.map((idea, key) => (
+                <Card idea={idea} key={key} />
+              ))}
+            </div>
+          </main>
+        </div>
       </div>
-    </div>
+    </Router>
   )
 }
 
