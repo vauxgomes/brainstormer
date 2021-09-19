@@ -3,6 +3,7 @@
 
   position: relative;
   height: 100vh;
+  min-height: 600px;
 
   font-size: 18px;
   font-weight: 500;
@@ -67,7 +68,7 @@
   }
 }
 
-@media (max-height: 550px) {
+@media (max-height: 600px) {
   .banner footer {
     margin-top: 1rem;
     position: initial;
