@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/brainstormer/static/css/main.06035f5a.chunk.css",
-    "main.js": "/brainstormer/static/js/main.4d9282c1.chunk.js",
-    "main.js.map": "/brainstormer/static/js/main.4d9282c1.chunk.js.map",
+    "main.css": "/brainstormer/static/css/main.acf4022c.chunk.css",
+    "main.js": "/brainstormer/static/js/main.dd81178f.chunk.js",
+    "main.js.map": "/brainstormer/static/js/main.dd81178f.chunk.js.map",
     "runtime-main.js": "/brainstormer/static/js/runtime-main.8bad2154.js",
     "runtime-main.js.map": "/brainstormer/static/js/runtime-main.8bad2154.js.map",
     "static/js/2.4eda1b48.chunk.js": "/brainstormer/static/js/2.4eda1b48.chunk.js",
     "static/js/2.4eda1b48.chunk.js.map": "/brainstormer/static/js/2.4eda1b48.chunk.js.map",
     "index.html": "/brainstormer/index.html",
-    "static/css/main.06035f5a.chunk.css.map": "/brainstormer/static/css/main.06035f5a.chunk.css.map",
+    "static/css/main.acf4022c.chunk.css.map": "/brainstormer/static/css/main.acf4022c.chunk.css.map",
     "static/js/2.4eda1b48.chunk.js.LICENSE.txt": "/brainstormer/static/js/2.4eda1b48.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.8bad2154.js",
     "static/js/2.4eda1b48.chunk.js",
-    "static/css/main.06035f5a.chunk.css",
-    "static/js/main.4d9282c1.chunk.js"
+    "static/css/main.acf4022c.chunk.css",
+    "static/js/main.dd81178f.chunk.js"
   ]
 }
