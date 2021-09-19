@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { HashLink } from 'react-router-hash-link'
 import { useAuth } from '../../providers/auth'
 
@@ -36,9 +37,9 @@ export default function Banner() {
           Adicione seu projeto
         </HashLink>
 
-        <button className="btn btn-sm btn-app-secondary">
+        <Link to="/home" className="btn btn-sm btn-app-secondary">
           Ver mais projetos
-        </button>
+        </Link>
       </nav>
 
       <footer className="noselect">

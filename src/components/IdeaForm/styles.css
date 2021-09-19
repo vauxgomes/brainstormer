@@ -16,7 +16,7 @@
 
 .idea-form-container.show {
   max-height: 1000px;
-  transition: all 0.8s ease-in;
+  transition: all 0.5s ease-in;
   margin-bottom: 1rem;
 }
 
