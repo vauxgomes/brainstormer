@@ -16,10 +16,13 @@ body {
     #ffffff;
 }
 
-a,
-a:hover {
-  color: var(--app-primary);
+a {
+  color: rgba(13, 12, 34)!important;
   text-decoration: none;
+}
+
+a:hover {
+  color: var(--app-primary) !important;
 }
 
 .icon {
@@ -60,6 +63,14 @@ a:hover {
   border: none;
   color: white !important;
   background: rgba(13, 12, 34) !important;
+}
+
+.text-app-primary {
+  color: #6666ff;
+}
+
+.text-app-secondary {
+  color: rgba(13, 12, 34);
 }
 
 .noselect {

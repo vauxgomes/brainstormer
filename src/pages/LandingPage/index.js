@@ -1,5 +1,4 @@
 import React from 'react'
-import { BrowserRouter as Router } from 'react-router-dom'
 
 import ShowCard from '../../components/ShowCard'
 import IdeaForm from '../../components/IdeaForm'

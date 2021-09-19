@@ -20,6 +20,10 @@
   bottom: 50px;
 }
 
+.banner footer a {
+  color: var(--app-primary) !important;
+}
+
 .banner ul {
   padding: 0;
   margin-bottom: 1rem;

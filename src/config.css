@@ -1,5 +1,14 @@
+/* @media (min-width: 576px) { ... } */
+/* @media (min-width: 768px) { ... } */
+/* @media (min-width: 992px) { ... } */
+/* @media (min-width: 1200px) { ... } */
+/* @media (min-width: 1400px) { ... } */
+
 :root {
   --app-primary: #6666ff;
-  --media-md: 968px;
-  --media-sm: 700px;
+  --media-sm: 576px;
+  --media-md: 768px;
+  --media-lg: 992px;
+  --media-xl: 1200px;
+  --media-xxl: 1400px;
 }

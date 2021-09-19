@@ -3,25 +3,24 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import TopBar from './components/TopBar'
 import HomePage from './pages/HomePage'
 import LandingPage from './pages/LandingPage'
-import Page404 from './pages/Page404'
+import PageNotFound from './pages/PageNotFound'
 
 const DefaultContainer = () => (
-  <div className="container-fluid">
+  <>
     <TopBar />
 
-    <Switch>
-      <div className="container">
-        <Route exact path="/home" component={HomePage} />
-        <Route path="/idea/view/:id?" component={HomePage} />
-        <Route component={Page404} />
-      </div>
-    </Switch>
-  </div>
+    <div className="container-fluid pt-3">
+      <Switch>
+        <Route path="/home" exact={true} component={HomePage} />
+        <Route component={PageNotFound} />
+      </Switch>
+    </div>
+  </>
 )
 
 export default function Routes() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Switch>
         <Route exact path="/" component={LandingPage} />
         <Route component={DefaultContainer} />
